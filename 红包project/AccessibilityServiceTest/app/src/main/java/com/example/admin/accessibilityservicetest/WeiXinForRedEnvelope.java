@@ -79,14 +79,15 @@ public class WeiXinForRedEnvelope extends ApplicationForRedEnvelope {
                     isOpen = true;
                     break;
                 }
-
-                List<AccessibilityNodeInfo> lateList = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/c2e");
-                Log.e(TAG, "来晚了，关闭红包按钮:" + lateList.size());
-                for (AccessibilityNodeInfo item : lateList) {
-                    item.performAction(AccessibilityNodeInfo.ACTION_CLICK);
-                    Log.e(TAG, "关闭红包按钮点击！！");
-                    isOpen = true;
-                    break;
+                if (list.size() == 0) {
+                    List<AccessibilityNodeInfo> lateList = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/c2e");
+                    Log.e(TAG, "来晚了，关闭红包按钮:" + lateList.size());
+                    for (AccessibilityNodeInfo item : lateList) {
+                        item.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                        Log.e(TAG, "关闭红包按钮点击！！");
+                        isOpen = true;
+                        break;
+                    }
                 }
 
                 if (isOpen) {
