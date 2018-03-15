@@ -42,6 +42,7 @@ public class WeiXinForRedEnvelope extends ApplicationForRedEnvelope {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void goToChattingPage() {
         Log.e(TAG, "进入聊天页面！！");
@@ -102,20 +103,15 @@ public class WeiXinForRedEnvelope extends ApplicationForRedEnvelope {
     @Override
     public void close() {
         Log.e(TAG, "处于红包详情页面！！");
-        boolean isClose = false;
         for (int i = 0; i < 50; i++) {
             AccessibilityNodeInfo nodeInfo = myAccessibilityService.getRootInActiveWindow();
             if (nodeInfo != null) {
                 List<AccessibilityNodeInfo> list = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/hx");
                 Log.e(TAG, "红包详情页面关闭控件数量：" + list.size());
 //                nodeInfo.recycle();
-                for (AccessibilityNodeInfo item : list) {
-                    item.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                if(list.size() != 0) {
+                    list.get(0).performAction(AccessibilityNodeInfo.ACTION_CLICK);
                     Log.e(TAG, "关闭红包详情页面！！");
-                    isClose = true;
-                    break;
-                }
-                if (isClose) {
                     break;
                 }
             }
