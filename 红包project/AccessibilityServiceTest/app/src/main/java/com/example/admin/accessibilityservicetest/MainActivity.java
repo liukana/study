@@ -8,9 +8,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+import com.example.admin.accessibilityservicetest.Service.MyAccessibilityService;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Context context;
     private Button btOpenHelper;
+    private Button btWeChat;
+    private Button btDingding;
+    private static MyAccessibilityService myAccessibilityService = new MyAccessibilityService();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,14 +24,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         context = this;
         btOpenHelper = findViewById(R.id.btOpenHelper);
+        btDingding = findViewById(R.id.btDingding);
+        btWeChat = findViewById(R.id.btWeChat);
         btOpenHelper.setOnClickListener(this);
+        btDingding.setOnClickListener(this);
+        btWeChat.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.btOpenHelper:
                 jumpToSettingPage();
+                break;
+            case R.id.btDingding:
+                myAccessibilityService.setApplication(new DingDingForRedEnvelope());
+                break;
+            case R.id.btWeChat:
+                myAccessibilityService.setApplication(new WeiXinForRedEnvelope());
                 break;
         }
     }
@@ -35,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         try {
             Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
             context.startActivity(intent);
-        } catch (Exception ignore) {}
+        } catch (Exception ignore) {
+        }
     }
 }

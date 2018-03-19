@@ -34,19 +34,19 @@ public class DingDingForRedEnvelope extends ApplicationForRedEnvelope {
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
     @Override
     public void openPacket() {
-        for (int i = 0; i < 50; i++) {
-            AccessibilityNodeInfo nodeInfo = myAccessibilityService.getRootInActiveWindow();
-            if (nodeInfo != null) {
-                List<AccessibilityNodeInfo> list = nodeInfo.findAccessibilityNodeInfosByViewId("com.alibaba.android.rimet:id/tv_view_detail");
-                for (AccessibilityNodeInfo item : list) {
-                    Log.e(TAG, "数量：" + item.getParent().getChildCount());
-                    for (int j = 0; j < item.getParent().getChildCount(); j++) {
-                        AccessibilityNodeInfo child = item.getParent().getChild(j);
-                        Log.e(TAG, "名称：" + child.getClassName());
-                    }
-                }
-            }
-        }
+//        for (int i = 0; i < 50; i++) {
+//            AccessibilityNodeInfo nodeInfo = myAccessibilityService.getRootInActiveWindow();
+//            if (nodeInfo != null) {
+//                List<AccessibilityNodeInfo> list = nodeInfo.findAccessibilityNodeInfosByViewId("com.alibaba.android.rimet:id/tv_view_detail");
+//                for (AccessibilityNodeInfo item : list) {
+//                    Log.e(TAG, "数量：" + item.getParent().getChildCount());
+//                    for (int j = 0; j < item.getParent().getChildCount(); j++) {
+//                        AccessibilityNodeInfo child = item.getParent().getChild(j);
+//                        Log.e(TAG, "名称：" + child.getClassName());
+//                    }
+//                }
+//            }
+//        }
     }
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)

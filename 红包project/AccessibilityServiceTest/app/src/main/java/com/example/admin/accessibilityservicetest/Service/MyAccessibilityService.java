@@ -68,6 +68,9 @@ public class MyAccessibilityService extends AccessibilityService {
         applicationForRedEnvelope.setMyAccessibilityService(this);
     }
 
+    public void setApplication(ApplicationForRedEnvelope application){
+        applicationForRedEnvelope = application;
+    }
     /**
      * 递归查找当前聊天窗口中的红包信息
      * <p>
