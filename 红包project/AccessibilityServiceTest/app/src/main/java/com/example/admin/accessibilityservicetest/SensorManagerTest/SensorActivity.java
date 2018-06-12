@@ -17,7 +17,7 @@ import java.time.Duration;
 import java.time.LocalTime;
 
 /**
- * 传感器测试 ----
+ * 传感器测试 ----加速度传感器
  */
 public class SensorActivity extends AppCompatActivity {
 
