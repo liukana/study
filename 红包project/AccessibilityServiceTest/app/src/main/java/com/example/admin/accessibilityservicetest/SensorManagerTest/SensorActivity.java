@@ -16,7 +16,9 @@ import com.example.admin.accessibilityservicetest.R;
 import java.time.Duration;
 import java.time.LocalTime;
 
-
+/**
+ * 传感器测试
+ */
 public class SensorActivity extends AppCompatActivity {
 
     private ImageView iv;
