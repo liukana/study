@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.accessibilityservicetest.MainActivity">
+
+    <Button
+        android:id="@+id/btnFindWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="扫描wifi" />
+
+    <com.example.admin.accessibilityservicetest.widget.ScrollYListView
+        android:id="@+id/lvWifiInfos"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:divider="@null"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rlToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="返回" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Wifi搜索结果"
+            android:textStyle="bold"/>
+        <View
+            android:id="@+id/divide"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_alignParentBottom="true"
+            android:background="#000"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+</FrameLayout>

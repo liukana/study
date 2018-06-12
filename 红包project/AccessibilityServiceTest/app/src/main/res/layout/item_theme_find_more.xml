@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlRootView"
+        android:layout_width="60dp"
+        android:layout_height="match_parent">
+
+        <com.example.admin.accessibilityservicetest.widget.FindMoreView
+            android:id="@+id/llFooterRoot"
+            android:layout_width="36dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tvMore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignRight="@id/llFooterRoot"
+            android:layout_marginRight="10dp"
+            android:ems="1"
+            android:gravity="center"
+            android:text="查看更多"
+            android:textSize="12dp" />
+    </RelativeLayout>
+</RelativeLayout>

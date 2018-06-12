@@ -11,6 +11,7 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * 微信版本：6.6.5
  * Created by liukan on 2018/3/9.

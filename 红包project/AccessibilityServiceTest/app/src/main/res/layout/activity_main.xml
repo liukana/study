@@ -53,4 +53,14 @@
         app:layout_constraintStart_toEndOf="@+id/btWeChat"
         app:layout_constraintTop_toBottomOf="@+id/btOpenHelper" />
 
+    <Button
+        android:id="@+id/btnJump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:text="跳转页面"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
