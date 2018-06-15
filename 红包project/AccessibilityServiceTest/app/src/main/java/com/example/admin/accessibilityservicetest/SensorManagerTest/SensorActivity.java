@@ -1,5 +1,7 @@
 package com.example.admin.accessibilityservicetest.SensorManagerTest;
 
+import android.animation.Animator;
+import android.animation.ValueAnimator;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -9,7 +11,10 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
+import android.widget.ListView;
 
 import com.example.admin.accessibilityservicetest.R;
 
@@ -43,20 +48,20 @@ public class SensorActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onSensorChanged(SensorEvent event) {
-                if (lastX == lastY && lastX == lastZ) {
-                    lastX = event.values[0];
-                    lastY = event.values[1];
-                    lastZ = event.values[2];
-                    lastTime = LocalTime.now();
-                } else {
-
-                    long duration = Duration.between(lastTime,LocalTime.now()).getSeconds();
-
-                    speedX = (event.values[0] - lastX) * duration;
-                    speedY = (event.values[1] - lastY) * duration;
-                    speedZ = (event.values[2] - lastZ) * duration;
-                    Log.e("lk", "speedX:" + speedX + ",speedY:" + speedY + ",speedZ:" + speedZ);
-                }
+//                if (lastX == lastY && lastX == lastZ) {
+//                    lastX = event.values[0];
+//                    lastY = event.values[1];
+//                    lastZ = event.values[2];
+//                    lastTime = LocalTime.now();
+//                } else {
+//
+//                    long duration = Duration.between(lastTime,LocalTime.now()).getSeconds();
+//
+//                    speedX = (event.values[0] - lastX) * duration;
+//                    speedY = (event.values[1] - lastY) * duration;
+//                    speedZ = (event.values[2] - lastZ) * duration;
+//                    Log.e("lk", "speedX:" + speedX + ",speedY:" + speedY + ",speedZ:" + speedZ);
+//                }
             }
 
             @Override
@@ -64,6 +69,23 @@ public class SensorActivity extends AppCompatActivity {
 
             }
         };
+
+        iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ValueAnimator animator = ValueAnimator.ofInt(0,iv.getHeight())
+                        .setDuration(2000);
+                animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                    @Override
+                    public void onAnimationUpdate(ValueAnimator animation) {
+                        iv.getLayoutParams().height = (int) animation.getAnimatedValue();
+                        iv.requestLayout();
+                    }
+                });
+                animator.start();
+            }
+        });
+
     }
 
     @Override
