@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/d404c7dd70a85db963b8003f60c76f78/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/admin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/93a04b14a6a8aca0c32497dd3f3db547/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/aba246706b91610beccace715ac315fd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2210b6ad763867f9e7f2251006d92e52/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96e2a430cbce591007d6b358a0d1365b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d9c9bae2075267588614a3fe15bdb809/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fecba376da4811833f5a37de0d483cd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/57cfdcb0f125ced1e81999268ac1928c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3b0ccd63d6093a9cc28a602ea4c3247a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad3b5bfd9cc0366f6159df68a5e968dd/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fd11a0663d88aab99ba3f25fec60c1b1/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:4:5-57
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:1-57:12
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:11:22-78
+application
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:13:5-55:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/d404c7dd70a85db963b8003f60c76f78/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/d404c7dd70a85db963b8003f60c76f78/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/admin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/93a04b14a6a8aca0c32497dd3f3db547/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/admin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/93a04b14a6a8aca0c32497dd3f3db547/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/aba246706b91610beccace715ac315fd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/aba246706b91610beccace715ac315fd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2210b6ad763867f9e7f2251006d92e52/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2210b6ad763867f9e7f2251006d92e52/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96e2a430cbce591007d6b358a0d1365b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96e2a430cbce591007d6b358a0d1365b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d9c9bae2075267588614a3fe15bdb809/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d9c9bae2075267588614a3fe15bdb809/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fecba376da4811833f5a37de0d483cd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fecba376da4811833f5a37de0d483cd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/57cfdcb0f125ced1e81999268ac1928c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/57cfdcb0f125ced1e81999268ac1928c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3b0ccd63d6093a9cc28a602ea4c3247a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3b0ccd63d6093a9cc28a602ea4c3247a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad3b5bfd9cc0366f6159df68a5e968dd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad3b5bfd9cc0366f6159df68a5e968dd/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fd11a0663d88aab99ba3f25fec60c1b1/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fd11a0663d88aab99ba3f25fec60c1b1/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:14:9-38
+activity#com.example.admin.accessibilityservicetest.MainActivity
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:21:9-24:52
+	android:screenOrientation
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:24:13-49
+	android:launchMode
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:22:13-41
+activity#com.example.admin.accessibilityservicetest.findmore.FindMoreActivity
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:25:9-63
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:25:19-60
+activity#com.example.admin.accessibilityservicetest.wifi.WifiActivity
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:26:9-28:52
+	android:screenOrientation
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:27:13-46
+service#com.example.admin.accessibilityservicetest.Service.MyAccessibilityService
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:30:9-42:19
+	android:enabled
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:33:13-36
+	android:permission
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:34:13-79
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:31:13-59
+intent-filter#android.accessibilityservice.AccessibilityService
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:35:13-37:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:36:17-92
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:36:25-89
+meta-data#android.accessibilityservice
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:39:13-41:57
+	android:resource
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:41:17-54
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:40:17-60
+activity#com.example.admin.accessibilityservicetest.SensorManagerTest.SensorActivity
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:44:9-79
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:44:19-67
+activity#com.example.admin.accessibilityservicetest.dagger2.DaggerTestActivity
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:45:9-47:20
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:45:19-61
+activity#com.example.admin.accessibilityservicetest.density.DensityTestActivity
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:48:9-54:20
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:48:19-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml:52:27-74
+uses-sdk
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/d404c7dd70a85db963b8003f60c76f78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/d404c7dd70a85db963b8003f60c76f78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/admin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/93a04b14a6a8aca0c32497dd3f3db547/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/admin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/93a04b14a6a8aca0c32497dd3f3db547/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/aba246706b91610beccace715ac315fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/aba246706b91610beccace715ac315fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2210b6ad763867f9e7f2251006d92e52/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2210b6ad763867f9e7f2251006d92e52/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96e2a430cbce591007d6b358a0d1365b/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96e2a430cbce591007d6b358a0d1365b/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d9c9bae2075267588614a3fe15bdb809/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d9c9bae2075267588614a3fe15bdb809/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fecba376da4811833f5a37de0d483cd/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fecba376da4811833f5a37de0d483cd/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/57cfdcb0f125ced1e81999268ac1928c/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/57cfdcb0f125ced1e81999268ac1928c/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3b0ccd63d6093a9cc28a602ea4c3247a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3b0ccd63d6093a9cc28a602ea4c3247a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad3b5bfd9cc0366f6159df68a5e968dd/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad3b5bfd9cc0366f6159df68a5e968dd/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fd11a0663d88aab99ba3f25fec60c1b1/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fd11a0663d88aab99ba3f25fec60c1b1/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/lkTest/红包project/AccessibilityServiceTest/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/d404c7dd70a85db963b8003f60c76f78/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/d404c7dd70a85db963b8003f60c76f78/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/aba246706b91610beccace715ac315fd/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/aba246706b91610beccace715ac315fd/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2210b6ad763867f9e7f2251006d92e52/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2210b6ad763867f9e7f2251006d92e52/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96e2a430cbce591007d6b358a0d1365b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96e2a430cbce591007d6b358a0d1365b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d9c9bae2075267588614a3fe15bdb809/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d9c9bae2075267588614a3fe15bdb809/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fecba376da4811833f5a37de0d483cd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1fecba376da4811833f5a37de0d483cd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/57cfdcb0f125ced1e81999268ac1928c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/57cfdcb0f125ced1e81999268ac1928c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3b0ccd63d6093a9cc28a602ea4c3247a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3b0ccd63d6093a9cc28a602ea4c3247a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad3b5bfd9cc0366f6159df68a5e968dd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad3b5bfd9cc0366f6159df68a5e968dd/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/83face0d4195ed6ade2bd114569dab87/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fd11a0663d88aab99ba3f25fec60c1b1/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fd11a0663d88aab99ba3f25fec60c1b1/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fd11a0663d88aab99ba3f25fec60c1b1/AndroidManifest.xml:26:13-58
