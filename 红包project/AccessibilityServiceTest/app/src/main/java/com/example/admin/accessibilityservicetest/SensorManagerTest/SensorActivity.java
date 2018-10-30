@@ -15,17 +15,11 @@ import android.view.View;
 import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.example.admin.accessibilityservicetest.R;
-import com.example.admin.accessibilityservicetest.dagger2.Animal;
-import com.example.admin.accessibilityservicetest.dagger2.DaggerTestComponent;
-import com.example.admin.accessibilityservicetest.dagger2.TestComponent;
 
 import java.time.Duration;
 import java.time.LocalTime;
-
-import javax.inject.Inject;
 
 /**
  * 传感器测试 ----加速度传感器
@@ -40,8 +34,7 @@ public class SensorActivity extends AppCompatActivity {
 
     float lastX, lastY, lastZ;
     LocalTime lastTime;
-    float speedX, speedY, speedZ;
-
+    float speedX,speedY,speedZ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,9 +73,8 @@ public class SensorActivity extends AppCompatActivity {
         iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                ValueAnimator animator = ValueAnimator.ofInt(0, iv.getHeight())
-                        .setDuration(300);
+                ValueAnimator animator = ValueAnimator.ofInt(0,iv.getHeight())
+                        .setDuration(2000);
                 animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                     @Override
                     public void onAnimationUpdate(ValueAnimator animation) {
